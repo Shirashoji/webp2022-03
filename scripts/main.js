@@ -70,4 +70,4 @@ function resetGame() {
     randomNumber = Math.floor(Math.random() * 100) + 1;
 }
 
-window.document.onkeydown = function () { if (event.key == 'Enter') { checkGuess(); } }
+window.document.onkeydown = function (e) { if (e.key == 'Enter') { checkGuess(); } }
